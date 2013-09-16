@@ -286,9 +286,6 @@
         </class>
         <class className="SelectionVC" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SelectionVC.h"/>
-            <relationships>
-                <relationship kind="action" name="backButton:" candidateClass="UIButton"/>
-            </relationships>
         </class>
         <class className="View2" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/View2.h"/>
