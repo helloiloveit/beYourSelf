@@ -83,7 +83,7 @@
             <objects>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gko-JY-19L">
@@ -111,33 +111,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.20000000000000015" contentMode="left" text="Senerity of being" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90d-1t-vch">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="134" id="DnL-J9-saZ"/>
-                                    <constraint firstAttribute="width" constant="393" id="tIn-RL-Phd"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="40"/>
-                                <color key="textColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.20000000596046449" contentMode="left" text="Senerity of being" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZb-kO-e0F">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="376" id="7Fh-M5-W9b"/>
-                                    <constraint firstAttribute="height" constant="134" id="VaM-cQ-0Lo"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="40"/>
-                                <color key="textColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.20000000596046449" contentMode="left" text="Senerity of being" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufk-Ja-eWG">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="134" id="bav-fS-NqC"/>
-                                    <constraint firstAttribute="width" constant="390" id="k9e-KI-sqq"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="40"/>
-                                <color key="textColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Mark Twain" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krG-gU-iJT">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="151" id="HX2-Kh-Une"/>
@@ -147,26 +120,33 @@
                                 <color key="textColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000013" contentMode="left" text="Senerity of being" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pHf-vh-c2N">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="123" id="RTr-lt-0Eg"/>
+                                    <constraint firstAttribute="width" constant="320" id="zaZ-aO-FxG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="XZb-kO-e0F" firstAttribute="bottom" secondItem="gko-JY-19L" secondAttribute="bottom" type="default" id="4Ox-h1-oeS"/>
                             <constraint firstItem="gko-JY-19L" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="87g-uE-HQs"/>
-                            <constraint firstItem="ufk-Ja-eWG" firstAttribute="top" secondItem="3" secondAttribute="top" constant="375" id="HDh-G6-01Z"/>
-                            <constraint firstItem="ufk-Ja-eWG" firstAttribute="centerX" secondItem="90d-1t-vch" secondAttribute="centerX" type="default" id="JfY-o9-39Q"/>
                             <constraint firstItem="gko-JY-19L" firstAttribute="top" secondItem="3" secondAttribute="top" constant="183" id="Kbk-1G-s3e"/>
-                            <constraint firstItem="krG-gU-iJT" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="83" id="PXI-XH-wCa"/>
-                            <constraint firstItem="TCR-TP-QO6" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="119" id="UUr-fh-NvM"/>
-                            <constraint firstItem="ufk-Ja-eWG" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="-51" id="aJA-og-CEf"/>
+                            <constraint firstItem="krG-gU-iJT" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="83" id="Mkc-8i-dYy"/>
+                            <constraint firstItem="TCR-TP-QO6" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="119" id="Za9-5P-6He"/>
                             <constraint firstAttribute="bottom" secondItem="krG-gU-iJT" secondAttribute="bottom" constant="159" id="bKX-mV-B9P"/>
-                            <constraint firstItem="90d-1t-vch" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="iRE-Rj-9UZ"/>
                             <constraint firstAttribute="bottom" secondItem="TCR-TP-QO6" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="nX3-9r-9AX"/>
+                            <constraint firstItem="pHf-vh-c2N" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="-6" id="o3E-lW-B1F"/>
                             <constraint firstItem="gko-JY-19L" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="p0F-xN-3mu"/>
-                            <constraint firstItem="XZb-kO-e0F" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="28" id="pKi-8K-7bP"/>
+                            <constraint firstItem="pHf-vh-c2N" firstAttribute="top" secondItem="3" secondAttribute="top" constant="27" id="uUm-nL-NuO"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="g0u-Tv-sSv"/>
                     <connections>
+                        <outlet property="content" destination="gko-JY-19L" id="QGu-bI-gI0"/>
+                        <outlet property="flyingText" destination="pHf-vh-c2N" id="HBW-n1-kY8"/>
                         <segue destination="Wtk-tl-U1v" kind="push" identifier="go_to_view2" id="Lc0-uy-HCL"/>
                     </connections>
                 </viewController>
@@ -179,16 +159,17 @@
             <objects>
                 <viewController id="Wtk-tl-U1v" customClass="View2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aSm-Wf-aDm">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WWO-Zg-0Sp">
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="119" id="XoX-sK-asW"/>
                                 </constraints>
                                 <string key="text"> "People who say they don't care what people think are usually desperate to have people think they don't care what people think. "
 </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -215,22 +196,11 @@
                                 <color key="textColor" white="0.43268134124087598" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Senerity of being" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKH-gf-Ylu">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="134" id="VYW-s5-Mpu"/>
-                                    <constraint firstAttribute="width" constant="329" id="a6G-Ko-9IH"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="34"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="WWO-Zg-0Sp" firstAttribute="trailing" secondItem="aSm-Wf-aDm" secondAttribute="trailing" type="default" id="2I2-jA-f1H"/>
-                            <constraint firstItem="OKH-gf-Ylu" firstAttribute="trailing" secondItem="aSm-Wf-aDm" secondAttribute="trailing" type="default" id="Ced-NB-Rlp"/>
                             <constraint firstItem="erx-9A-7df" firstAttribute="leading" secondItem="aSm-Wf-aDm" secondAttribute="leading" constant="116" id="Dtu-HY-coZ"/>
-                            <constraint firstItem="OKH-gf-Ylu" firstAttribute="top" secondItem="aSm-Wf-aDm" secondAttribute="top" constant="21" id="FNO-Fa-TfK"/>
                             <constraint firstAttribute="bottom" secondItem="9PH-v7-lUW" secondAttribute="bottom" constant="139" id="K84-Ou-wYI"/>
                             <constraint firstAttribute="trailing" secondItem="9PH-v7-lUW" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="YAo-mY-dGx"/>
                             <constraint firstAttribute="bottom" secondItem="erx-9A-7df" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="kKU-0d-2Vg"/>
@@ -269,32 +239,12 @@
     <resources>
         <image name="heart.png" width="256" height="256"/>
     </resources>
-    <classes>
-        <class className="CustomCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="selectionText" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SelectionVC" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SelectionVC.h"/>
-        </class>
-        <class className="View2" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/View2.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="gET-K6-lj5"/>
+        <segue reference="byT-HP-yTN"/>
     </inferredMetricsTieBreakers>
 </document>

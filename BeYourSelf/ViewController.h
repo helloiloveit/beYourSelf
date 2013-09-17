@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *flyingText;
+@property (weak, nonatomic) IBOutlet UITextView *content;
 
 @end
